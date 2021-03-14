@@ -15,6 +15,6 @@ public class Main {
         IPreciousRepository preciousRepository = new PreciousRepository(db);
 
         StonesFrontEnd app = new StonesFrontEnd(preciousRepository);
-        app.start();
+        app.start() ;
     }
 }
